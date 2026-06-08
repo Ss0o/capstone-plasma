@@ -1,0 +1,9 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/sejong-capstone-plasma/plasma-be
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/sejong-capstone-plasma/plasma-fe
+[submodule "ai"]
+	path = ai
+	url = https://github.com/sejong-capstone-plasma/plasma-ai
