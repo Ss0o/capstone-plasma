@@ -41,12 +41,12 @@ https://github.com/user-attachments/assets/5240881b-78b6-4553-95a4-d33adb43b89c
 
 세종대학교 소프트웨어학과 캡스톤 디자인 프로젝트 (2026 4-1)
 
-# 사용자 인터페이스
+### 사용자 인터페이스
 <img width="3390" height="1908" alt="영상 1" src="https://github.com/user-attachments/assets/dce5fcd5-8b59-405f-b276-674453c9e926" />
 
 <img width="3390" height="1908" alt="영상 2" src="https://github.com/user-attachments/assets/0b87d215-222d-4bbe-85bb-785b8c2fb447" />
 
-<img width="400" height="259" alt="영상 3" src="https://github.com/user-attachments/assets/04d7f7fd-54e2-431a-a8c6-a441abd28d2e" />
+<img width="3390" height="1908" alt="영상 3" src="https://github.com/user-attachments/assets/04d7f7fd-54e2-431a-a8c6-a441abd28d2e" />
 
 
 (무료 영상 편집 툴 vrew를 사용했습니다)
@@ -69,7 +69,8 @@ https://github.com/user-attachments/assets/5240881b-78b6-4553-95a4-d33adb43b89c
 
 ## 3. 시스템 아키텍처
 
-![architecture](./docs/architecture.png)
+<img width="1299" height="535" alt="시스템 아키텍처" src="https://github.com/user-attachments/assets/631f9059-5390-470e-9831-14cc58cb7a94" />
+
 
 | 파트 | 구성 |
 |------|------|
