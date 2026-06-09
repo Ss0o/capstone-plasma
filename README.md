@@ -71,7 +71,7 @@ https://github.com/user-attachments/assets/5240881b-78b6-4553-95a4-d33adb43b89c
 ## 3. 시스템 아키텍처
 
 ### 전체 구조
-<img width="2402" height="1126" alt="image" src="https://github.com/user-attachments/assets/c7f6db0d-b430-444d-bd82-58a2a1525857" />
+<img width="2400" height="1122" alt="image" src="https://github.com/user-attachments/assets/d538cfd8-af99-4bec-a745-0ebdb1be200c" />
 
 
 
