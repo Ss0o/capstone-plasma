@@ -24,7 +24,10 @@
 
 
 
-https://github.com/user-attachments/assets/27696ee2-bc83-4843-9c84-e516dc236119
+
+https://github.com/user-attachments/assets/5240881b-78b6-4553-95a4-d33adb43b89c
+
+
 
 
 
@@ -38,12 +41,22 @@ https://github.com/user-attachments/assets/27696ee2-bc83-4843-9c84-e516dc236119
 
 세종대학교 소프트웨어학과 캡스톤 디자인 프로젝트 (2026 4-1)
 
-<img width="3390" height="1908" alt="영상" src="https://github.com/user-attachments/assets/dce5fcd5-8b59-405f-b276-674453c9e926" />
+# 사용자 인터페이스
+<img width="3390" height="1908" alt="영상 1" src="https://github.com/user-attachments/assets/dce5fcd5-8b59-405f-b276-674453c9e926" />
 
+<img width="3390" height="1908" alt="영상 2" src="https://github.com/user-attachments/assets/0b87d215-222d-4bbe-85bb-785b8c2fb447" />
+
+<img width="400" height="259" alt="영상 3" src="https://github.com/user-attachments/assets/04d7f7fd-54e2-431a-a8c6-a441abd28d2e" />
+
+
+(무료 영상 편집 툴 vrew를 사용했습니다)
 
 <br/>
 
 ## 2. 주요 기능
+
+<img width="3390" height="1908" alt="영상-_4_" src="https://github.com/user-attachments/assets/3616c360-4c2d-43fd-a719-1179fcc5848f" />
+
 
 | 기능 | 설명 |
 |------|------|
@@ -61,7 +74,7 @@ https://github.com/user-attachments/assets/27696ee2-bc83-4843-9c84-e516dc236119
 | 파트 | 구성 |
 |------|------|
 | **Frontend** | React, TypeScript, Chart.js — Vercel 배포 |
-| **Backend** | Spring Boot, JPA, MySQL — AWS EC2 + Docker + Nginx (Blue-Green 배포) |
+| **Backend** | Spring Boot, JPA, AWS EC2 + Docker + Nginx (Blue-Green 배포) + RDS(MySQL) |
 | **AI Server** | FastAPI, XGBoost, Optuna, ChromaDB, Qwen LLM — NVIDIA DGX Spark |
 
 <br/>
@@ -105,35 +118,6 @@ https://github.com/user-attachments/assets/27696ee2-bc83-4843-9c84-e516dc236119
 
 <br/>
 
-## 6. 내가 맡은 역할 (임상수 · Backend)
-
-### REST API 설계 및 구현
-프론트와 직접 연결되는 API를 설계했다. 채팅 세션 생성/조회/종료, 메시지 저장, 분석 요청 등 서비스 전반의 엔드포인트를 담당했다.
-
-### 파라미터 검증 흐름 관리
-사용자 자연어 입력 → AI 서버 파라미터 추출 → 검증 → 재검증 → 확정까지의 흐름을 백엔드에서 직접 관리했다. AI 응답을 그대로 프론트에 내려보내지 않고, 누락값·범위 초과·모호한 요청을 백엔드에서 검증하는 레이어를 설계했다.
-
-### 응답 DTO 구조 설계
-프론트가 별도 가공 없이 바로 렌더링할 수 있도록 응답 구조를 설계했다. 예측/최적화/비교/질의응답 각각의 결과 포맷을 파트별로 정리했다.
-
-### 예외 처리
-잘못된 입력값, 존재하지 않는 세션, AI 서버 호출 실패 등 주요 예외 케이스에 대한 글로벌 예외 처리를 구현했다.
-
-### Blue-Green 무중단 배포
-AWS EC2 + Docker + Nginx 기반으로 Blue-Green 배포를 적용했다. GitHub Actions CI/CD 파이프라인을 구성해 main 브랜치 push 시 자동 배포가 이루어지도록 했다.
-
-**트러블슈팅 →** [EC2 t2.micro에서 Spring Boot 컨테이너가 종료되는 문제 해결하기](#) *(블로그 링크 추가 예정)*
-
-<br/>
-
-## 7. 트러블슈팅
-
-| 문제 | 원인 | 해결 |
-|------|------|------|
-| EC2 t2.micro에서 컨테이너 갑자기 종료 | Blue-Green 배포 시 두 컨테이너 동시 실행으로 메모리 부족 (OOM) | swap 메모리 추가, 컨테이너 메모리 제한 설정, 헬스체크 대기 시간 조정 |
-| AI 응답 누락값/범위 초과 | LLM 특성상 응답 형식이 불안정 | 백엔드 검증 레이어 설계, 재요청 흐름 구현 |
-
-<br/>
 
 ## 8. 레포지토리 구조
 
@@ -152,18 +136,7 @@ capstone-plasma/
 
 <br/>
 
-## 9. 관련 포스팅
-
-> 📝 캡스톤 프로젝트 회고 시리즈 (블로그 링크 추가 예정)
->
-> 1. 반도체 플라즈마 공정 해석 서비스를 만들게 된 이유
-> 2. 예측과 최적화만 있던 첫 기획
-> 3. 예측 서비스에서 대화형 분석 서비스로의 전환
-> 4. 자연어 입력 기반 공정 분석 서비스의 전체 아키텍처
-> ...
-
-<br/>
 
 ---
 
-<p align="center">세종대학교 소프트웨어학과 · 컴2-04 · 2026 봄학기 캡스톤 디자인</p>
+<p align="center">세종대학교 소프트웨어학과 · 2026 4-1 캡스톤 디자인</p>
