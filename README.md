@@ -46,7 +46,8 @@ https://github.com/user-attachments/assets/5240881b-78b6-4553-95a4-d33adb43b89c
 
 <img width="3390" height="1908" alt="영상 2" src="https://github.com/user-attachments/assets/0b87d215-222d-4bbe-85bb-785b8c2fb447" />
 
-<img width="3390" height="1908" alt="영상 3" src="https://github.com/user-attachments/assets/04d7f7fd-54e2-431a-a8c6-a441abd28d2e" />
+<img width="2400" height="1554" alt="영상 3" src="https://github.com/user-attachments/assets/e492655a-7da4-4922-a526-b51b4205b2f8" />
+
 
 
 (무료 영상 편집 툴 vrew를 사용했습니다)
