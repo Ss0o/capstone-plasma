@@ -72,6 +72,9 @@ https://github.com/user-attachments/assets/5240881b-78b6-4553-95a4-d33adb43b89c
 
 <img width="1299" height="535" alt="시스템 아키텍처" src="https://github.com/user-attachments/assets/631f9059-5390-470e-9831-14cc58cb7a94" />
 
+<백엔드>
+<img width="1664" height="1090" alt="image" src="https://github.com/user-attachments/assets/ee25687d-46af-4690-834f-482203d99733" />
+
 
 | 파트 | 구성 |
 |------|------|
